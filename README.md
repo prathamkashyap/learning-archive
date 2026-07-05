@@ -99,5 +99,9 @@ git diff --staged
 - Use one file per focused topic.
 - Put commands near the context where they are useful.
 - Add common mistakes, not just ideal paths.
+- Use GitHub-compatible formatting: tables, blockquotes, `<details>`, code blocks, Mermaid, and sparse visual markers.
+- Avoid colored text, custom fonts, and Markdown styling that breaks outside one renderer.
 - Use meaningful commits such as `Document branching workflow`.
 - Avoid vague commits such as `update`, `changes`, or `final`.
+
+Full formatting rules: [Documentation Style Guide](DOCUMENTATION_STYLE_GUIDE.md)

@@ -64,6 +64,7 @@ Content goes here.
 - Using inconsistent heading levels.
 - Putting huge command lists directly in the README instead of using `<details>`.
 - Writing link text like "click here" instead of naming the destination.
+- Trying to use colored fonts or custom text styling that GitHub Markdown does not support reliably.
 
 ## Quick Reference
 
@@ -76,3 +77,14 @@ Content goes here.
 | Image | `![alt](path)` |
 | Table divider | `| --- | --- |` |
 | Task list | `- [ ] Task` |
+
+## GitHub-Compatible Polish
+
+| Goal | Portable option |
+| --- | --- |
+| Add structure | Headings and table of contents |
+| Compare commands | Tables |
+| Hide long references | `<details>` |
+| Show workflow | Mermaid diagram |
+| Highlight warning | Blockquote |
+| Add personality | Sparse emoji or Unicode heading text |

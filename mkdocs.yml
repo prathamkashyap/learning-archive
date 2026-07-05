@@ -39,6 +39,7 @@ nav:
   - Markdown:
       - Overview: markdown/README.md
       - Cheatsheet: markdown/markdown-cheatsheet.md
+  - Documentation Style Guide: DOCUMENTATION_STYLE_GUIDE.md
   - Linux: linux/README.md
   - VS Code: vscode/README.md
   - Docker: docker/README.md

@@ -87,3 +87,4 @@ Check that:
 - New files are linked from the correct place.
 - Notes are clear enough to revisit later.
 - No secrets or temporary files are included.
+- Formatting follows `DOCUMENTATION_STYLE_GUIDE.md`: use portable Markdown instead of colored text or custom fonts.

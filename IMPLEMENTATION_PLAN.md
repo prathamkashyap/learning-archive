@@ -55,3 +55,4 @@ Status: Planned
 - Update README progress when a topic changes.
 - Prefer short examples and practical explanations.
 - Link related notes together.
+- Follow the [Documentation Style Guide](DOCUMENTATION_STYLE_GUIDE.md) so notes render well on GitHub, MkDocs, desktop, and mobile.
