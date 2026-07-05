@@ -1,0 +1,57 @@
+site_name: Learning Archive
+site_description: Personal software engineering notes for Git, GitHub, Markdown, and core developer topics.
+repo_url: https://github.com/prathamkashyap/learning-archive
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+    - scheme: slate
+      primary: indigo
+      accent: teal
+nav:
+  - Home: README.md
+  - Git:
+      - Overview: git/README.md
+      - Installation and Configuration: git/01-installation-and-configuration.md
+      - Repository Lifecycle: git/02-repository-lifecycle.md
+      - Staging Area: git/03-staging-area.md
+      - Commits: git/04-commits.md
+      - Branches: git/05-branches.md
+      - Merge vs Rebase: git/06-merge-vs-rebase.md
+      - Remote Repositories: git/07-remote-repositories.md
+      - Undoing Changes: git/08-undoing-changes.md
+      - .gitignore: git/09-gitignore.md
+      - Useful Commands: git/10-useful-commands.md
+      - Best Practices: git/11-best-practices.md
+  - GitHub:
+      - Overview: github/README.md
+      - Create Repository: github/01-create-repository.md
+      - Profile: github/02-profile.md
+      - Pull Requests: github/03-pull-requests.md
+      - GitHub Pages: github/04-github-pages.md
+  - Markdown:
+      - Overview: markdown/README.md
+      - Cheatsheet: markdown/markdown-cheatsheet.md
+  - Linux: linux/README.md
+  - VS Code: vscode/README.md
+  - Docker: docker/README.md
+  - SQL: sql/README.md
+  - Networking: networking/README.md
+  - System Design: system-design/README.md
+  - Interview: interview/README.md
+  - Plan: IMPLEMENTATION_PLAN.md
+  - Walkthrough: WALKTHROUGH.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true

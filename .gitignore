@@ -1,0 +1,24 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# MkDocs output
+site/
