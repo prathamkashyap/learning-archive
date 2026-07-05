@@ -21,32 +21,32 @@ Status: Complete
 
 ## Phase 3: GitHub and Markdown
 
-Status: Next
+Status: Expanded
 
-- Expand GitHub notes with repository creation, profile setup, pull requests, issues, and GitHub Pages.
-- Improve the Markdown cheat sheet with tables, links, images, code blocks, and README patterns.
+- Expanded GitHub notes with repository creation, profile setup, pull requests, issues, projects, Actions, Pages, releases, packages, security, and contribution workflow.
+- Improved the Markdown cheat sheet with tables, links, images, code blocks, collapsible sections, and GitHub-compatible polish.
 
 ## Phase 4: Terminal and Tooling
 
-Status: Planned
+Status: Expanded
 
-- Add Linux terminal basics, shell navigation, file permissions, environment variables, and common commands.
-- Add VS Code setup notes, extensions, settings, shortcuts, and Git integration.
+- Added Linux notes for filesystem navigation, permissions, text processing, processes, services, packages, networking, SSH, scripting, aliases, and a cheatsheet.
+- Added VS Code notes for setup, extensions, settings, profiles, shortcuts, productivity, debugging, tasks, snippets, and a cheatsheet.
 
 ## Phase 5: Backend and Infrastructure Foundations
 
-Status: Planned
+Status: Expanded
 
-- Add Docker notes covering images, containers, Dockerfiles, volumes, networks, and Compose.
-- Add SQL notes covering SELECT, filtering, joins, grouping, schema design, indexes, and transactions.
-- Add networking notes covering HTTP, DNS, IP, TCP, TLS, ports, and APIs.
+- Added Docker notes covering architecture, images, containers, volumes, bind mounts, networks, Compose, troubleshooting, cleanup, and a cheatsheet.
+- Added SQL notes covering CRUD, filtering, joins, aggregation, subqueries, views, schema design, constraints, transactions, indexes, optimization, and a cheatsheet.
+- Added networking notes covering OSI, TCP/IP, HTTP, HTTPS, DNS, DHCP, ARP, ICMP, routing, NAT, VPN, CDN, TLS, troubleshooting, ports, and a cheatsheet.
 
 ## Phase 6: Advanced Review Material
 
-Status: Planned
+Status: Expanded
 
-- Add system design summaries for scalability, caching, queues, databases, load balancers, and reliability.
-- Add interview prep notes with revision checklists, question patterns, and project explanation templates.
+- Added system design summaries for scalability, reliability, caching, queues, databases, CAP theorem, replication, sharding, APIs, REST, GraphQL, monoliths, microservices, and interview structure.
+- Added interview prep notes for STAR answers, HR questions, project explanations, coding workflow, debugging strategy, and revision checklists.
 
 ## Maintenance Rules
 
@@ -55,4 +55,4 @@ Status: Planned
 - Update README progress when a topic changes.
 - Prefer short examples and practical explanations.
 - Link related notes together.
-- Follow the [Documentation Style Guide](DOCUMENTATION_STYLE_GUIDE.md) so notes render well on GitHub, MkDocs, desktop, and mobile.
+- Use GitHub-compatible formatting only: tables, blockquotes, `<details>`, fenced code blocks, Mermaid, and sparse visual markers.

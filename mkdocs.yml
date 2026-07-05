@@ -36,17 +36,62 @@ nav:
       - Profile: github/02-profile.md
       - Pull Requests: github/03-pull-requests.md
       - GitHub Pages: github/04-github-pages.md
+      - Issues, Discussions, and Projects: github/05-issues-discussions-projects.md
+      - Actions and Security: github/06-actions-security.md
+      - Releases, Packages, and Templates: github/07-releases-packages-templates.md
+      - Contribution Workflow: github/08-contribution-workflow.md
   - Markdown:
       - Overview: markdown/README.md
       - Cheatsheet: markdown/markdown-cheatsheet.md
-  - Documentation Style Guide: DOCUMENTATION_STYLE_GUIDE.md
-  - Linux: linux/README.md
-  - VS Code: vscode/README.md
-  - Docker: docker/README.md
-  - SQL: sql/README.md
-  - Networking: networking/README.md
-  - System Design: system-design/README.md
-  - Interview: interview/README.md
+  - Linux:
+      - Overview: linux/README.md
+      - Filesystem and Navigation: linux/01-filesystem-navigation.md
+      - Permissions and Ownership: linux/02-permissions-ownership.md
+      - Text Processing: linux/03-text-processing.md
+      - Processes, Services, and Packages: linux/04-processes-services-packages.md
+      - Networking and SSH: linux/05-networking-ssh.md
+      - Shell Scripting and Aliases: linux/06-shell-scripting-aliases.md
+      - Cheatsheet: linux/07-cheatsheet.md
+  - VS Code:
+      - Overview: vscode/README.md
+      - Setup and Settings: vscode/01-setup-settings.md
+      - Shortcuts and Productivity: vscode/02-shortcuts-productivity.md
+      - Debugging, Tasks, and Snippets: vscode/03-debugging-tasks-snippets.md
+      - Cheatsheet: vscode/04-cheatsheet.md
+  - Docker:
+      - Overview: docker/README.md
+      - Basics and Architecture: docker/01-basics-and-architecture.md
+      - Images and Containers: docker/02-images-and-containers.md
+      - Volumes, Mounts, and Networks: docker/03-volumes-mounts-networks.md
+      - Docker Compose: docker/04-docker-compose.md
+      - Troubleshooting and Cleanup: docker/05-troubleshooting-cleanup.md
+      - Cheatsheet: docker/06-cheatsheet.md
+  - SQL:
+      - Overview: sql/README.md
+      - CRUD and Filtering: sql/01-crud-filtering.md
+      - Joins and Aggregation: sql/02-joins-aggregation.md
+      - Subqueries and Views: sql/03-subqueries-views.md
+      - Design and Transactions: sql/04-design-transactions.md
+      - Indexes and Optimization: sql/05-indexes-optimization.md
+      - Cheatsheet: sql/06-cheatsheet.md
+  - Networking:
+      - Overview: networking/README.md
+      - Fundamentals: networking/01-fundamentals.md
+      - Web Protocols: networking/02-web-protocols.md
+      - Troubleshooting: networking/03-troubleshooting.md
+      - Cheatsheet: networking/04-cheatsheet.md
+  - System Design:
+      - Overview: system-design/README.md
+      - Scalability and Reliability: system-design/01-scalability-reliability.md
+      - Data, Caching, and Queues: system-design/02-data-caching-queues.md
+      - APIs and Services: system-design/03-apis-services.md
+      - Interview Checklist: system-design/04-interview-checklist.md
+  - Interview:
+      - Overview: interview/README.md
+      - Behavioral and STAR: interview/01-behavioral-star.md
+      - Project Explanation Template: interview/02-project-explanation-template.md
+      - Coding and Debugging Workflow: interview/03-coding-debugging-workflow.md
+      - Revision Checklists: interview/04-revision-checklists.md
   - Plan: IMPLEMENTATION_PLAN.md
   - Walkthrough: WALKTHROUGH.md
 plugins:

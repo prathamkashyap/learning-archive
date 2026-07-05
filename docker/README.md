@@ -1,13 +1,14 @@
 # Docker
 
-Docker notes will live here. The goal is to understand containers well enough to run projects consistently instead of treating Docker commands as magic strings.
+Container notes for running projects consistently across machines. This section focuses on commands I actually need while building, debugging, cleaning, and explaining Docker in interviews.
 
-## Planned Index
+## Index
 
-| Topic | Status |
+| File | Use it for |
 | --- | --- |
-| Images and containers | Planned |
-| Dockerfiles | Planned |
-| Volumes | Planned |
-| Networks | Planned |
-| Docker Compose | Planned |
+| [Basics and Architecture](01-basics-and-architecture.md) | Installation checks, Docker objects, image/container mental model |
+| [Images and Containers](02-images-and-containers.md) | Build, run, inspect, logs, exec, stop, remove |
+| [Volumes, Mounts, and Networks](03-volumes-mounts-networks.md) | Persistence, bind mounts, named volumes, bridge networks |
+| [Docker Compose](04-docker-compose.md) | Multi-container apps, Compose commands, env files |
+| [Troubleshooting and Cleanup](05-troubleshooting-cleanup.md) | Common errors, pruning, port conflicts, disk usage |
+| [Docker Cheatsheet](06-cheatsheet.md) | Compact command reference and interview prompts |

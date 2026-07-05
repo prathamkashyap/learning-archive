@@ -14,4 +14,4 @@ jobs:
       - name: Check Markdown links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress README.md git/**/*.md github/**/*.md markdown/**/*.md IMPLEMENTATION_PLAN.md WALKTHROUGH.md
+          args: --no-progress README.md IMPLEMENTATION_PLAN.md WALKTHROUGH.md git/**/*.md github/**/*.md markdown/**/*.md linux/**/*.md vscode/**/*.md docker/**/*.md sql/**/*.md networking/**/*.md system-design/**/*.md interview/**/*.md

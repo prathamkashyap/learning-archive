@@ -1,13 +1,12 @@
 # Interview
 
-Interview preparation notes will live here. This section will collect revision checklists, common question patterns, behavioral examples, and project explanation templates.
+Placement and interview notes for behavioral answers, project explanation, coding workflow, debugging, and final revision.
 
-## Planned Index
+## Index
 
-| Topic | Status |
+| File | Use it for |
 | --- | --- |
-| Git revision | Planned |
-| Project explanations | Planned |
-| Behavioral stories | Planned |
-| Coding patterns | Planned |
-| System design revision | Planned |
+| [Behavioral and STAR](01-behavioral-star.md) | HR questions, STAR structure, story bank |
+| [Project Explanation Template](02-project-explanation-template.md) | Explaining projects clearly in interviews |
+| [Coding and Debugging Workflow](03-coding-debugging-workflow.md) | Problem-solving routine, testing, communication |
+| [Revision Checklists](04-revision-checklists.md) | Technical topics to skim before interviews |

@@ -34,15 +34,15 @@ flowchart LR
 | Topic | Folder | Status | Current focus |
 | --- | --- | --- | --- |
 | Git | [git/](git/) | Complete | Daily workflow, branching, remotes, undoing mistakes |
-| GitHub | [github/](github/) | Started | Repositories, profile, pull requests, Pages |
+| GitHub | [github/](github/) | Expanded | PRs, Actions, issues, releases, security |
 | Markdown | [markdown/](markdown/) | Started | Cheatsheet and README formatting |
-| Linux | [linux/](linux/) | Planned | Terminal basics and permissions |
-| VS Code | [vscode/](vscode/) | Planned | Setup, extensions, shortcuts |
-| Docker | [docker/](docker/) | Planned | Images, containers, Dockerfiles, Compose |
-| SQL | [sql/](sql/) | Planned | Queries, joins, schema design |
-| Networking | [networking/](networking/) | Planned | HTTP, DNS, TCP/IP, ports |
-| System Design | [system-design/](system-design/) | Planned | Scaling, caching, reliability |
-| Interview | [interview/](interview/) | Planned | Revision checklists and practice |
+| Linux | [linux/](linux/) | Expanded | Filesystem, permissions, processes, SSH |
+| VS Code | [vscode/](vscode/) | Expanded | Settings, shortcuts, debugging, tasks |
+| Docker | [docker/](docker/) | Expanded | Images, containers, volumes, Compose |
+| SQL | [sql/](sql/) | Expanded | CRUD, joins, indexes, transactions |
+| Networking | [networking/](networking/) | Expanded | HTTP, DNS, TCP/IP, TLS, troubleshooting |
+| System Design | [system-design/](system-design/) | Expanded | Scaling, caching, queues, APIs |
+| Interview | [interview/](interview/) | Expanded | STAR, projects, coding flow, revision |
 
 ## How I Use This
 
@@ -61,7 +61,7 @@ Start here: [git/README.md](git/README.md)
 
 ### GitHub
 
-The GitHub section tracks the hosted workflow around repositories, profiles, pull requests, and GitHub Pages.
+The GitHub section tracks hosted workflows: repositories, profiles, pull requests, GitHub Pages, issues, projects, Actions, security, releases, packages, and contribution flow.
 
 Start here: [github/README.md](github/README.md)
 
@@ -71,9 +71,17 @@ The Markdown section is for writing clean notes and READMEs that render well on 
 
 Start here: [markdown/README.md](markdown/README.md)
 
-### Planned Sections
+### Engineering Topics
 
-Linux, VS Code, Docker, SQL, Networking, System Design, and Interview folders are present so the archive can grow in a predictable shape.
+Linux, VS Code, Docker, SQL, Networking, System Design, and Interview sections now contain focused notes with commands, tables, common mistakes, and interview prompts.
+
+- [Linux](linux/README.md)
+- [VS Code](vscode/README.md)
+- [Docker](docker/README.md)
+- [SQL](sql/README.md)
+- [Networking](networking/README.md)
+- [System Design](system-design/README.md)
+- [Interview](interview/README.md)
 
 ## Quick Commands
 
@@ -103,5 +111,3 @@ git diff --staged
 - Avoid colored text, custom fonts, and Markdown styling that breaks outside one renderer.
 - Use meaningful commits such as `Document branching workflow`.
 - Avoid vague commits such as `update`, `changes`, or `final`.
-
-Full formatting rules: [Documentation Style Guide](DOCUMENTATION_STYLE_GUIDE.md)

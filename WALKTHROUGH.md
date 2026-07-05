@@ -24,7 +24,22 @@ The Git section is the first complete section. Read it in this order:
 
 Use `git/README.md` as the table of contents.
 
-## 3. Practice Each Concept
+## 3. Use Topic Indexes
+
+Each major folder has its own README:
+
+- `github/README.md`
+- `linux/README.md`
+- `vscode/README.md`
+- `docker/README.md`
+- `sql/README.md`
+- `networking/README.md`
+- `system-design/README.md`
+- `interview/README.md`
+
+Start from the folder README, then open the cheatsheet when revising quickly.
+
+## 4. Practice Each Concept
 
 For every command-based note:
 
@@ -33,7 +48,7 @@ For every command-based note:
 3. Write down anything confusing.
 4. Update the note after understanding it better.
 
-## 4. Add New Topic Notes
+## 5. Add New Topic Notes
 
 When adding a new topic:
 
@@ -43,7 +58,7 @@ When adding a new topic:
 4. Add mistakes to avoid.
 5. Link the note from that topic's README or the root README.
 
-## 5. Commit Changes Cleanly
+## 6. Commit Changes Cleanly
 
 Use meaningful commits:
 
@@ -72,7 +87,7 @@ changes
 test
 ```
 
-## 6. Keep the Archive Presentable
+## 7. Keep the Archive Presentable
 
 Before pushing:
 
@@ -87,4 +102,4 @@ Check that:
 - New files are linked from the correct place.
 - Notes are clear enough to revisit later.
 - No secrets or temporary files are included.
-- Formatting follows `DOCUMENTATION_STYLE_GUIDE.md`: use portable Markdown instead of colored text or custom fonts.
+- Formatting uses portable GitHub Markdown: tables, blockquotes, `<details>`, code blocks, and Mermaid.

@@ -1,13 +1,15 @@
 # Linux
 
-Terminal and operating-system notes will live here. I want this section to become the place I check for navigation, permissions, processes, environment variables, and everyday shell commands.
+Terminal notes for filesystem work, text processing, permissions, processes, networking commands, packages, aliases, and shell scripting basics.
 
-## Planned Index
+## Index
 
-| Topic | Status |
+| File | Use it for |
 | --- | --- |
-| Terminal basics | Planned |
-| Shell navigation | Planned |
-| File permissions | Planned |
-| Processes | Planned |
-| Environment variables | Planned |
+| [Filesystem and Navigation](01-filesystem-navigation.md) | Paths, files, directories, searching |
+| [Permissions and Ownership](02-permissions-ownership.md) | `chmod`, `chown`, numeric modes, executable files |
+| [Text Processing](03-text-processing.md) | `grep`, `awk`, `sed`, `find`, archives |
+| [Processes, Services, and Packages](04-processes-services-packages.md) | `ps`, `top`, `kill`, `systemctl`, package managers |
+| [Networking and SSH](05-networking-ssh.md) | `curl`, `wget`, `ssh`, `scp`, ports, DNS checks |
+| [Shell Scripting and Aliases](06-shell-scripting-aliases.md) | Bash basics, aliases, shortcuts |
+| [Linux Cheatsheet](07-cheatsheet.md) | Compact command and interview reference |
